@@ -91,6 +91,5 @@ namespace BMT110PROJE
                 secenekEkleButon.PerformClick();
             }
         }
-
     }
 }

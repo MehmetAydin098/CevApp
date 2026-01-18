@@ -39,10 +39,10 @@
             // 
             // textBoxUsername
             // 
-            this.textBoxUsername.Location = new System.Drawing.Point(297, 160);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUsername.Location = new System.Drawing.Point(396, 197);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(86, 20);
+            this.textBoxUsername.Size = new System.Drawing.Size(113, 22);
             this.textBoxUsername.TabIndex = 0;
             this.textBoxUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.entera_tıklama_textBoxUsername);
             // 
@@ -50,10 +50,9 @@
             // 
             this.labelGiris.AutoSize = true;
             this.labelGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelGiris.Location = new System.Drawing.Point(260, 97);
-            this.labelGiris.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelGiris.Location = new System.Drawing.Point(347, 119);
             this.labelGiris.Name = "labelGiris";
-            this.labelGiris.Size = new System.Drawing.Size(90, 39);
+            this.labelGiris.Size = new System.Drawing.Size(111, 51);
             this.labelGiris.TabIndex = 1;
             this.labelGiris.Text = "Giriş";
             // 
@@ -61,10 +60,9 @@
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelUsername.Location = new System.Drawing.Point(186, 160);
-            this.labelUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelUsername.Location = new System.Drawing.Point(248, 197);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(111, 20);
+            this.labelUsername.Size = new System.Drawing.Size(139, 25);
             this.labelUsername.TabIndex = 2;
             this.labelUsername.Text = "Kullanıcı Adı:";
             // 
@@ -72,20 +70,19 @@
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelPassword.Location = new System.Drawing.Point(186, 187);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelPassword.Location = new System.Drawing.Point(248, 230);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(52, 20);
+            this.labelPassword.Size = new System.Drawing.Size(64, 25);
             this.labelPassword.TabIndex = 5;
             this.labelPassword.Text = "Şifre:";
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(297, 187);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPassword.Location = new System.Drawing.Point(396, 230);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(86, 20);
+            this.textBoxPassword.Size = new System.Drawing.Size(113, 22);
             this.textBoxPassword.TabIndex = 6;
             this.textBoxPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.entera_tıklama_textBoxPassword);
             // 
@@ -93,10 +90,10 @@
             // 
             this.GirisYap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.GirisYap.Location = new System.Drawing.Point(297, 211);
-            this.GirisYap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GirisYap.Location = new System.Drawing.Point(396, 260);
+            this.GirisYap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GirisYap.Name = "GirisYap";
-            this.GirisYap.Size = new System.Drawing.Size(86, 31);
+            this.GirisYap.Size = new System.Drawing.Size(115, 38);
             this.GirisYap.TabIndex = 7;
             this.GirisYap.Text = "Giriş Yap";
             this.GirisYap.UseVisualStyleBackColor = true;
@@ -104,10 +101,10 @@
             // 
             // girisMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(178)))), ((int)(((byte)(211)))));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.GirisYap);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.labelPassword);
@@ -117,7 +114,7 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(98)))), ((int)(((byte)(138)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "girisMenu";

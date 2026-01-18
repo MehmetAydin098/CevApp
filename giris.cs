@@ -80,6 +80,5 @@ namespace BMT110PROJE
                 GirisYap.PerformClick();
             }
         }
-
     }
 }

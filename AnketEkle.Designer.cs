@@ -76,7 +76,7 @@
             // textBoxSoru
             // 
             this.textBoxSoru.Location = new System.Drawing.Point(328, 101);
-            this.textBoxSoru.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSoru.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSoru.Name = "textBoxSoru";
             this.textBoxSoru.Size = new System.Drawing.Size(132, 22);
             this.textBoxSoru.TabIndex = 3;
@@ -85,7 +85,7 @@
             // textBoxSecenek
             // 
             this.textBoxSecenek.Location = new System.Drawing.Point(328, 165);
-            this.textBoxSecenek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSecenek.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSecenek.Name = "textBoxSecenek";
             this.textBoxSecenek.Size = new System.Drawing.Size(132, 22);
             this.textBoxSecenek.TabIndex = 4;
@@ -107,7 +107,7 @@
             this.listBoxSecenek.FormattingEnabled = true;
             this.listBoxSecenek.ItemHeight = 16;
             this.listBoxSecenek.Location = new System.Drawing.Point(279, 231);
-            this.listBoxSecenek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxSecenek.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxSecenek.Name = "listBoxSecenek";
             this.listBoxSecenek.Size = new System.Drawing.Size(212, 196);
             this.listBoxSecenek.TabIndex = 8;
@@ -134,7 +134,7 @@
             this.secenekEkleButon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.secenekEkleButon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.secenekEkleButon.Location = new System.Drawing.Point(469, 161);
-            this.secenekEkleButon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.secenekEkleButon.Margin = new System.Windows.Forms.Padding(4);
             this.secenekEkleButon.Name = "secenekEkleButon";
             this.secenekEkleButon.Size = new System.Drawing.Size(128, 30);
             this.secenekEkleButon.TabIndex = 5;
@@ -147,7 +147,7 @@
             this.anketKaydetButon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.anketKaydetButon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.anketKaydetButon.Location = new System.Drawing.Point(500, 278);
-            this.anketKaydetButon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.anketKaydetButon.Margin = new System.Windows.Forms.Padding(4);
             this.anketKaydetButon.Name = "anketKaydetButon";
             this.anketKaydetButon.Size = new System.Drawing.Size(173, 79);
             this.anketKaydetButon.TabIndex = 9;
